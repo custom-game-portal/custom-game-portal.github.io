@@ -1,0 +1,22 @@
+header {
+   background: #ffffff;
+   height: 60px;
+   margin-bottom: 20px;
+}
+
+.wrapper {
+   max-width: 1170px !important;
+   padding: 0 15px !important;
+   margin: 0 auto !important;
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+header a {
+   color: #776E65;
+   font-family: Arial, sans-serif;
+   font-size: 18px;
+   font-weight: 400 !important;
+   text-decoration: none;
+}

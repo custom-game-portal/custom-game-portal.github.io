@@ -1,0 +1,59 @@
+body {
+   margin: 0;
+   background: #F1F1F1;
+}
+
+h1, h2, h3,
+h4, h5, h6,
+p, ul, button {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.wrapper {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.games-box {
+   display: flex;
+}
+
+.games-box__item {
+   overflow: hidden;
+   border-radius: 6px;
+   margin-right: 20px;
+   transition: box-shadow 0.4s;
+}
+
+.games-box__item:hover {
+   -webkit-box-shadow: 3px 4px 16px -6px rgba(0,0,0,0.75);
+   -moz-box-shadow: 3px 4px 16px -6px rgba(0,0,0,0.75);
+   box-shadow: 3px 4px 16px -6px rgba(0,0,0,0.75);
+}
+
+.games-box__item a {
+   text-decoration: none;
+   color: inherit;
+}
+
+.games-box__item:last-child {
+   margin-right: 0;
+}
+
+.games-box-item__img {
+   width: 190px;
+   height: 160px;
+   font-size: 0;
+}
+
+.games-box-item__img img {
+   width: 100%;
+   height: 100%;
+}
+
+.games-box-item__text {
+   background: #ffffff;
+   padding: 10px;
+}
